@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fondo animado</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="bg_animate">
+        <div class="header_nav">
+            <div class="contenedor">
+                <!-- <h1>Efecto Burbuja</h1> -->
+                <!-- <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Servicios</a>
+                    <a href="#">Contacto</a>
+                </nav> -->
+            </div>
+        </div>
+
+        <section class="banner contenedor">
+            <secrion class="banner_title">
+                <form action="validar_usuario.php" method="post" id="form">
+                    <div class="form">
+                        <div class="grupo"><h1>Login</h1></div>
+                        <div class="grupo">
+                            <input type="text" name="usuario" id="usuario" required><span class="barra"></span>
+                            <label for="usuario">Usuario</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="password" name="password" id="password" class="pass" required onclick="mostrar()"><span class="barra"></span>
+                            <label for="password">Contraseña</label>
+                        </div>
+                        <button type="submit" name="ingresar" class="ingresar">Ingresar</button>
+                    </div>
+                </form>
+            </secrion>
+            <div class="banner_img">
+                <img src="logo.png" alt="">
+            </div>
+        </section>
+
+        <div class="burbujas">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
+    </header>
+</body>
+</html>
